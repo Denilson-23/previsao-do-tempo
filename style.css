@@ -16,7 +16,7 @@ body {
 }
 
 .caixa-maior {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(32, 28, 223);
     opacity: 0.8;
     max-width: 450px;
     padding: 50px;
@@ -35,7 +35,7 @@ body {
 button {
     border: none;
     padding: 10px;
-    background-color: #7c7c7c2b;
+    background-color: #02008d;
     cursor: pointer;
     border-radius: 25px;
     float: right;
@@ -43,7 +43,7 @@ button {
 }
 
 button:hover {
-    background-color: #755252;
+    background-color: #4a37b6;
 }
 
 input {
@@ -51,7 +51,7 @@ input {
     outline: none;
     border-radius: 20px;
     padding: 10px;
-    background-color: #7c7c7c2b;
+    background-color: #02008d;
     color: #000000;
     width: calc(100% - 90px);
     font-size: 24px;
@@ -79,6 +79,7 @@ input::placeholder{
 .umidade {
     color: #000000;
     font-size: 20px;
+
 
 }
 
