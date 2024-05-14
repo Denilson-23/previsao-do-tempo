@@ -22,7 +22,8 @@ body {
     padding: 50px;
     border-radius: 25px;
     max-width: 450px;
-    margin-left: 200px;
+    margin-left: 230px;
+    
 }
 
 .lupa {
@@ -54,6 +55,7 @@ input {
     color: #f0ffff;
     width: calc(100% - 90px);
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
 
@@ -84,4 +86,19 @@ input {
 
     border-radius: 40px;
     display: flex;
+}
+@media (max-width :900px){
+    body{
+        width: 100vw;
+        height: 90vh;
+    }
+    
+    
+    .caixa-maior{
+        margin: 40px;
+        width: 367px;
+
+    }
+
+
 }
