@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("https://source.unsplash.com//1600x900/?landscape");
+
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.caixa-maior {
+    background-color: black;
+    opacity: 0.8;
+    max-width: 450px;
+    padding: 50px;
+    border-radius: 25px;
+    max-width: 450px;
+    margin-left: 200px;
+}
+
+.lupa {
+    height: 20px;
+    width: 25px;
+
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    border-radius: 25px;
+    float: right;
+
+}
+
+button:hover {
+    background-color: #7c7c7c;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    color: #f0ffff;
+    width: calc(100% - 90px);
+    font-size: 24px;
+}
+
+
+ 
+
+
+.cidade {
+    color: #f0ffff;
+
+}
+
+.graus {
+    color: #f0ffff;
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+
+.umidade {
+    color: #f0ffff;
+    font-size: 20px;
+
+}
+
+.icone {
+    height: 40px;
+    width: 40px;
+
+    border-radius: 40px;
+    display: flex;
+}
