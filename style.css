@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "embargo" ,sans-serif ;
+
 }
 
 body {
@@ -52,14 +53,16 @@ input {
     border-radius: 20px;
     padding: 10px;
     background-color: #02008d;
-    color: #000000;
+    color: #ffffff;
+    opacity: .8;
     width: calc(100% - 90px);
     font-size: 24px;
     margin-bottom: 20px;
 }
 
 input::placeholder{
-    color: #000000;
+    color: #ffffff;
+    opacity: .5;
 }
  
 
@@ -98,7 +101,7 @@ input::placeholder{
     
     
     .caixa-maior{
-        margin: 40px;
+        margin: 23px;
         width: 367px;
 
     }
